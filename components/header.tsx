@@ -3,7 +3,7 @@
 import DiscordIcon from "@/assets/discord.svg";
 import FigmaIcon from "@/assets/figma.svg";
 import GitHubIcon from "@/assets/github.svg";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/shadcn.svg";
 import TwitterIcon from "@/assets/twitter.svg";
 import { FigmaExportDialog } from "@/components/figma-export-dialog";
 import { SocialLink } from "@/components/social-link";
@@ -17,7 +17,7 @@ import { useState } from "react";
 import { GetProCTA } from "./get-pro-cta";
 
 export function Header() {
-  const { stargazersCount } = useGithubStars("jnsahaj", "tweakcn");
+  const { stargazersCount } = useGithubStars("drtonylove1963", "Prism");
   const [figmaDialogOpen, setFigmaDialogOpen] = useState(false);
 
   return (
@@ -25,15 +25,15 @@ export function Header() {
       <div className="flex items-center justify-between gap-2 p-4">
         <div className="flex items-center gap-1">
           <Link href="/" className="flex items-center gap-2">
-            <Logo className="size-6" title="tweakcn" />
-            <span className="hidden font-bold md:block">tweakcn</span>
+            <Logo className="size-6" title="Prism" />
+            <span className="hidden font-bold md:block">Prism</span>
           </Link>
         </div>
         <div className="flex items-center gap-3.5">
           <GetProCTA className="h-8" />
 
           <SocialLink
-            href="https://github.com/jnsahaj/tweakcn"
+            href="https://github.com/drtonylove1963/Prism"
             className="flex items-center gap-2 text-sm font-bold"
           >
             <GitHubIcon className="size-4" />
@@ -46,7 +46,7 @@ export function Header() {
                 <DiscordIcon className="size-5" />
               </SocialLink>
             </div>
-            <SocialLink href="https://x.com/iamsahaj_xyz">
+            <SocialLink href="https://x.com/drtonylove1963">
               <TwitterIcon className="size-4" />
             </SocialLink>
           </div>

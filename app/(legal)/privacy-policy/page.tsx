@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | tweakcn",
-  description: "Privacy Policy for tweakcn.",
+  title: "Privacy Policy | Prism",
+  description: "Privacy Policy for Prism.",
 };
 
 export default function PrivacyPolicyPage() {

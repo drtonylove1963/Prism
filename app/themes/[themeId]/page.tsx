@@ -13,16 +13,16 @@ export async function generateMetadata({ params }: ThemePageProps): Promise<Meta
   const theme = await getTheme(themeId);
 
   return {
-    title: theme?.name + " - tweakcn",
+    title: theme?.name + " - Prism",
     description: `Discover shadcn/ui themes - ${theme?.name} theme`,
     openGraph: {
-      title: `${theme?.name} - tweakcn`,
+      title: `${theme?.name} - Prism`,
       description: `Discover shadcn/ui themes - ${theme?.name} theme`,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${theme?.name} - tweakcn`,
+      title: `${theme?.name} - Prism`,
       description: `Discover shadcn/ui themes - ${theme?.name} theme`,
     },
     robots: {

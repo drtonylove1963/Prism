@@ -1,18 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Apply Your tweakcn Theme to Shadcraft Figma UI Kit | Professional Design System",
+  title: "Apply Your Prism Theme to Shadcraft Figma UI Kit | Professional Design System",
   description:
-    "Transform your tweakcn themes into stunning Figma designs with Shadcraft's premium UI kit. 51 components, 44 blocks, dark mode support, and 1500+ icons. Professional Figma design system for shadcn/ui themes.",
+    "Transform your Prism themes into stunning Figma designs with Shadcraft's premium UI kit. 51 components, 44 blocks, dark mode support, and 1500+ icons. Professional Figma design system for shadcn/ui themes.",
   keywords:
-    "figma ui kit, shadcn ui figma, tweakcn themes, figma design system, ui components figma, design tokens figma, figma plugin, shadcraft, figma templates, design system integration",
-  authors: [{ name: "tweakcn Team" }],
+    "figma ui kit, shadcn ui figma, Prism themes, figma design system, ui components figma, design tokens figma, figma plugin, shadcraft, figma templates, design system integration",
+  authors: [{ name: "Prism Team" }],
   openGraph: {
-    title: "Apply Your tweakcn Theme to Shadcraft Figma UI Kit",
+    title: "Apply Your Prism Theme to Shadcraft Figma UI Kit",
     description:
-      "Professional Figma UI kit with 51 components, 44 blocks, and seamless tweakcn theme integration. Get the ultimate design system for your projects.",
+      "Professional Figma UI kit with 51 components, 44 blocks, and seamless Prism theme integration. Get the ultimate design system for your projects.",
     url: "https://prism.dev/figma",
-    siteName: "tweakcn",
+    siteName: "Prism",
     images: [
       {
         url: "https://prism.dev/figma-onboarding/shadcraft-preview.jpg",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apply Your tweakcn Theme to Shadcraft Figma UI Kit",
+    title: "Apply Your Prism Theme to Shadcraft Figma UI Kit",
     description:
-      "Professional Figma UI kit with 51 components, 44 blocks, and seamless tweakcn theme integration.",
+      "Professional Figma UI kit with 51 components, 44 blocks, and seamless Prism theme integration.",
     images: ["https://prism.dev/figma-onboarding/shadcraft-preview.jpg"],
   },
   robots: "index, follow",

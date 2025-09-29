@@ -18,7 +18,7 @@ interface FigmaHeaderProps {
 }
 
 export function FigmaHeader({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: FigmaHeaderProps) {
-  const { stargazersCount } = useGithubStars("jnsahaj", "tweakcn");
+  const { stargazersCount } = useGithubStars("jnsahaj", "Prism");
 
   return (
     <header
@@ -31,7 +31,7 @@ export function FigmaHeader({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: F
         <Link href="/">
           <div className="flex items-center gap-2 font-bold">
             <Logo className="size-6" />
-            <span className="hidden lg:block">tweakcn</span>
+            <span className="hidden lg:block">Prism</span>
           </div>
         </Link>
 
@@ -43,7 +43,7 @@ export function FigmaHeader({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: F
           >
             <Button variant="ghost" asChild>
               <a
-                href="https://github.com/jnsahaj/tweakcn"
+                href="https://github.com/drtonylove1963/Prism"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold"
@@ -93,7 +93,7 @@ export function FigmaHeader({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: F
             >
               <Button variant="ghost" asChild className="w-full justify-start">
                 <a
-                  href="https://github.com/jnsahaj/tweakcn"
+                  href="https://github.com/drtonylove1963/Prism"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}

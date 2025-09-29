@@ -41,7 +41,7 @@ const navbarItems = [
 ];
 
 export function Header({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) {
-  const { stargazersCount } = useGithubStars("jnsahaj", "tweakcn");
+  const { stargazersCount } = useGithubStars("jnsahaj", "Prism");
 
   const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
@@ -65,7 +65,7 @@ export function Header({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: Header
         <Link href="/">
           <div className="flex items-center gap-2 font-bold">
             <Logo className="size-6" />
-            <span className="hidden lg:block">tweakcn</span>
+            <span className="hidden lg:block">Prism</span>
           </div>
         </Link>
         <nav className="hidden items-center gap-4 md:flex lg:gap-8">
@@ -92,7 +92,7 @@ export function Header({ isScrolled, mobileMenuOpen, setMobileMenuOpen }: Header
           >
             <Button variant="ghost" asChild>
               <a
-                href="https://github.com/jnsahaj/tweakcn"
+                href="https://github.com/drtonylove1963/Prism"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold"

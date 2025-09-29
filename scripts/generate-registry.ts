@@ -13,7 +13,7 @@ interface ThemeRegistry {
 function generateRegistry() {
   const registry: ThemeRegistry = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
-    name: "tweakcn-theme-registry",
+    name: "Prism-theme-registry",
     homepage: "https://prism.dev",
     items: [],
   };

@@ -19,7 +19,7 @@ export const FIGMA_CONSTANTS = {
     {
       step: "Step 2",
       title: "Open the plugin",
-      description: "Launch the tweakcn Figma plugin",
+      description: "Launch the Prism Figma plugin",
     },
     {
       step: "Step 3",

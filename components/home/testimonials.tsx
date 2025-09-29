@@ -13,7 +13,7 @@ const testimonials = [
     image: "https://pbs.twimg.com/profile_images/1766632098461253634/2t4wT1TZ_400x400.png",
     name: "YiMing",
     tag: "yimingdothan",
-    description: `v0 + tweakcn + chatgpt for graphics
+    description: `v0 + Prism + chatgpt for graphics
 
 generated a landing page in about 2~ hours
 
@@ -28,8 +28,8 @@ crazy how easy this shit is now`,
 ▪️ full stack Next.js
 ▪️ how to build a focused product people love
 
-… look no further than tweakcn[0] by 
-@iamsahaj_xyz. It's an open-source @shadcn theme builder.
+… look no further than Prism[0] by 
+@drtonylove1963. It's an open-source @shadcn theme builder.
 `,
     href: "https://x.com/rauchg/status/1938745259204493738",
   },
@@ -37,7 +37,7 @@ crazy how easy this shit is now`,
     image: "https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_400x400.jpg",
     name: "shadcn",
     tag: "shadcn",
-    description: `4/n - Finally, a custom theme from tweakcn by @iamsahaj_xyz`,
+    description: `4/n - Finally, a custom theme from Prism by @drtonylove1963`,
     href: "https://x.com/shadcn/status/1909619407124676701",
   },
   {
@@ -53,7 +53,7 @@ crazy how easy this shit is now`,
     tag: "theorcdev",
     description: `Transform your Shadcn app with one click!
 
-@iamsahaj_xyz created a great concept with Tweakcn ⚔️`,
+@drtonylove1963 created a great concept with Tweakcn ⚔️`,
     href: "https://x.com/theorcdev/status/1923396394452124081",
   },
   {
@@ -62,7 +62,7 @@ crazy how easy this shit is now`,
     tag: "nocheerleader",
     description: `Create a Custom Theme: Your app instantly looks more intentional.
 
-Build a color palette, typography and layout preview with tweakcn dot com
+Build a color palette, typography and layout preview with Prism dot com
 
 Grab  the CSS → drop into Bolt = cohesive design`,
     href: "https://x.com/nocheerleader/status/1934648830315684275",
@@ -72,21 +72,21 @@ Grab  the CSS → drop into Bolt = cohesive design`,
     name: "Tanpreet Jolly 🌂",
     tag: "JollyTanpreet",
     description:
-      "I just tried tweakcn and seems like you nailed it. This is what I have been looking for, awesome job!",
+      "I just tried Prism and seems like you nailed it. This is what I have been looking for, awesome job!",
     href: "https://x.com/JollyTanpreet/status/1926923858721808484",
   },
   {
     image: "https://pbs.twimg.com/profile_images/1677359164580929544/jngFF04Y_400x400.jpg",
     name: "Code With Antonio",
     tag: "YTCodeAntonio",
-    description: "there is an entire chapter dedicated to tweakcn!! such a cool project",
+    description: "there is an entire chapter dedicated to Prism!! such a cool project",
     href: "https://x.com/YTCodeAntonio/status/1938314416497549430",
   },
   {
     image: "https://pbs.twimg.com/profile_images/1942939901994893312/epjxuhCr_400x400.jpg",
     name: "Emir",
     tag: "emirthedev",
-    description: "Started using tweakcn for client projects too. This is a real game changer",
+    description: "Started using Prism for client projects too. This is a real game changer",
     href: "https://x.com/emirthedev/status/1919418644183843211",
   },
   {
@@ -246,7 +246,7 @@ export function Testimonials() {
             Loved by developers worldwide
           </h2>
           <p className="text-muted-foreground max-w-[500px] md:text-lg">
-            See what the community is saying about tweakcn
+            See what the community is saying about Prism
           </p>
         </motion.div>
 

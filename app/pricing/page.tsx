@@ -17,7 +17,7 @@ import { Metadata } from "next";
 import { Testimonials } from "@/components/home/testimonials";
 
 export const metadata: Metadata = {
-  title: "Pricing — tweakcn",
+  title: "Pricing — Prism",
   robots: "index, follow",
 };
 
@@ -195,11 +195,11 @@ const PRICING_FAQS = [
     answer: `You get unlimited AI-generated themes, AI theme generation from images, unlimited saved themes, priority support, and more features coming soon. We're developing new features for Pro users!`,
   },
   {
-    question: "Can I still use tweakcn for free?",
-    answer: `Yes! tweakcn provides a comprehensive free tier that includes theme customization, access to preset themes, and up to ${AI_REQUEST_FREE_TIER_LIMIT} free AI-generated themes. You can build and export themes without any payment required.`,
+    question: "Can I still use Prism for free?",
+    answer: `Yes! Prism provides a comprehensive free tier that includes theme customization, access to preset themes, and up to ${AI_REQUEST_FREE_TIER_LIMIT} free AI-generated themes. You can build and export themes without any payment required.`,
   },
   {
-    question: "Does tweakcn offer a free trial for the Pro plan?",
+    question: "Does Prism offer a free trial for the Pro plan?",
     answer: `No, there are no free trials. However, you get access to generate up to ${AI_REQUEST_FREE_TIER_LIMIT} themes with AI, plus unlimited manual theme customization using the free visual editor.`,
   },
   {
