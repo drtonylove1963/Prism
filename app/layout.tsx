@@ -52,7 +52,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <ThemeScript />
         <DynamicFontLoader />
@@ -69,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <meta name="darkreader-lock" />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <NuqsAdapter>
           <Suspense>
             <QueryProvider>
