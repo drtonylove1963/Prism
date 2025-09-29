@@ -52,7 +52,7 @@ export default function FigmaPage() {
     name: "Shadcraft Figma UI Kit - tweakcn Integration",
     description:
       "Professional Figma UI kit with 51 components, 44 blocks, dark mode support, and seamless tweakcn theme integration",
-    image: "https://tweakcn.com/figma-onboarding/shadcraft-preview.jpg",
+    image: "https://prism.dev/figma-onboarding/shadcraft-preview.jpg",
     brand: {
       "@type": "Brand",
       name: "Shadcraft",

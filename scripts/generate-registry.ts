@@ -14,7 +14,7 @@ function generateRegistry() {
   const registry: ThemeRegistry = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
     name: "tweakcn-theme-registry",
-    homepage: "https://tweakcn.com",
+    homepage: "https://prism.dev",
     items: [],
   };
 

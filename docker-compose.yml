@@ -3,6 +3,7 @@ version: "3.8"
 services:
   app:
     build: .
+    container_name: prism-app
     ports:
       - "3000:3000"
     env_file:
@@ -17,11 +18,12 @@ services:
 
   db:
     image: postgres:15
+    container_name: prism-db
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: tweakcn
+      POSTGRES_DB: prism
     ports:
       - "5432:5432"
     volumes:

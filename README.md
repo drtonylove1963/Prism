@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>tweakcn.com</h1>
+  <h1>Prism</h1>
 </div>
 
 <div align="center">
@@ -8,32 +8,18 @@
   </a>
   <br />
   <br />
-  <a href="https://discord.gg/Phs4u2NM3n" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/discord/1353416868769173576?style=for-the-badge&logo=discord&logoColor=%23ffffff">
-  </a>
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jnsahaj/tweakcn?style=for-the-badge&logo=github">
-  <a href="https://x.com/iamsahaj_xyz">
-    <img alt="X (formerly Twitter) URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Fiamsahaj_xyz&style=for-the-badge&logo=x&label=%40iamsahaj_xyz&color=%2300000000" />
-  </a>
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/drtonylove1963/Prism?style=for-the-badge&logo=github">
 </div>
 
 <br />
 
-**[tweakcn](https://tweakcn.com)** is a powerful Visual Theme Editor for tailwind CSS & shadcn/ui components. It comes with Beautiful theme presets to get started, while aiming to offer advanced customisation for each aspect of your UI
+**Prism** is a powerful Visual Theme Editor for Tailwind CSS & shadcn/ui components with AI-powered theme generation. It comes with beautiful theme presets to get started, while aiming to offer advanced customization for each aspect of your UI.
 
-![tweakcn.com](public/og-image.v050725.png)
+![Prism](public/og-image.v050725.png)
 
-## Motivation
+## Overview
 
-Websites made with shadcn/ui famously look the same. tweakcn is a tool that helps you customize shadcn/ui components visually, to make your components stand-out. The goal is to build a platform where a user can discover endless customization options and then have the ability to put their own twist on it. Check our roadmap for more information
-
-## Current Features
-
-You can find the full feature list here: https://tweakcn.com/#features
-
-## Roadmap
-
-You can find the updated roadmap here: https://tweakcn.com/#roadmap
+Prism helps you visually customize shadcn/ui component themes, preview changes in real-time, and export production-ready CSS variables. Features AI-powered theme generation from text descriptions or images using Google Gemini and Groq.
 
 ## Run Locally
 
@@ -49,8 +35,8 @@ You can find the updated roadmap here: https://tweakcn.com/#roadmap
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jnsahaj/tweakcn.git
-cd tweakcn
+git clone https://github.com/drtonylove1963/Prism.git
+cd Prism
 ```
 
 2. Install dependencies:
@@ -69,8 +55,8 @@ npm run dev
 
 ## Contributors
 
-<a href="https://github.com/jnsahaj/tweakcn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jnsahaj/tweakcn" />
+<a href="https://github.com/drtonylove1963/Prism/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=drtonylove1963/Prism" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -79,15 +65,15 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-# Star History
+## License
 
-<p align="center">
-  <a target="_blank" href="https://star-history.com/#jnsahaj/tweakcn&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jnsahaj/tweakcn&type=Date&theme=dark">
-      <img alt="GitHub Star History for jnsahaj/tweakcn" src="https://api.star-history.com/svg?repos=jnsahaj/tweakcn&type=Date">
-    </picture>
-  </a>
-</p>
+This project is open source and available under the [MIT License](LICENSE).
 
-<!-- GitAds-Verify: HX84XPI5OQ816367AROGJ9SROARUHQER -->
+## Acknowledgments
+
+- Built on top of [shadcn/ui](https://ui.shadcn.com/)
+- Powered by [Vercel](https://vercel.com) and [Neon](https://neon.tech)
+
+---
+
+Made with ❤️ by the Prism community

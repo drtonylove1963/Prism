@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-**tweakcn** is a visual theme editor for Tailwind CSS & shadcn/ui components. It allows users to customize shadcn/ui themes visually, preview changes in real-time, and export CSS variables. The application features AI-powered theme generation, theme presets, and user authentication for saving themes.
+**Prism** is a visual theme editor for Tailwind CSS & shadcn/ui components. It allows users to customize shadcn/ui themes visually, preview changes in real-time, and export CSS variables. The application features AI-powered theme generation, theme presets, and user authentication for saving themes.
 
 ## Key Technologies
 

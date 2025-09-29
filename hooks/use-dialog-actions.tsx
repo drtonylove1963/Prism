@@ -132,7 +132,7 @@ function useDialogActionsStore(): DialogActionsContextType {
     const currentPreset = presetId ? getPreset(presetId) : undefined;
 
     if (!currentPreset) {
-      setShareUrl(`https://tweakcn.com/editor/theme`);
+      setShareUrl(`https://prism.dev/editor/theme`);
       setShareDialogOpen(true);
       return;
     }
@@ -146,8 +146,8 @@ function useDialogActionsStore(): DialogActionsContextType {
     });
 
     const url = isSavedPreset
-      ? `https://tweakcn.com/themes/${id}`
-      : `https://tweakcn.com/editor/theme?theme=${id}`;
+      ? `https://prism.dev/themes/${id}`
+      : `https://prism.dev/editor/theme?theme=${id}`;
 
     setShareUrl(url);
     setShareDialogOpen(true);

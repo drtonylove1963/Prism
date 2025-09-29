@@ -56,8 +56,8 @@ const CodePanel: React.FC<CodePanelProps> = ({ themeEditorState }) => {
 
   const getRegistryCommand = (preset: string) => {
     const url = isSavedPreset
-      ? `https://tweakcn.com/r/themes/${preset}`
-      : `https://tweakcn.com/r/themes/${preset}.json`;
+      ? `https://prism.dev/r/themes/${preset}`
+      : `https://prism.dev/r/themes/${preset}.json`;
     switch (packageManager) {
       case "pnpm":
         return `pnpm dlx shadcn@latest add ${url}`;

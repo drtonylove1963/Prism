@@ -115,8 +115,8 @@ export default function PrivacyPolicyPage() {
         <h2 className="text-xl font-semibold">8. Contact Us</h2>
         <p className="text-muted-foreground">
           If you have any questions or concerns about this privacy policy, please reach out at{" "}
-          <a href="mailto:sahaj@tweakcn.com" className="text-primary hover:underline">
-            sahaj@tweakcn.com
+          <a href="mailto:sahaj@prism.dev" className="text-primary hover:underline">
+            sahaj@prism.dev
           </a>
         </p>
       </section>

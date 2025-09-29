@@ -57,7 +57,7 @@ export default async function Image({
               marginBottom: "10px",
             }}
           >
-            tweakcn.com
+            prism.dev
           </div>
           <div
             style={{

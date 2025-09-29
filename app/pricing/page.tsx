@@ -148,7 +148,7 @@ export default function PricingPage() {
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-base text-balance md:text-lg">
               Here&apos;s everything you may want to know. For any other info, just{" "}
-              <Link href="mailto:sahaj@tweakcn.com" className="text-primary hover:underline">
+              <Link href="mailto:sahaj@prism.dev" className="text-primary hover:underline">
                 reach us
               </Link>
               .
@@ -176,7 +176,7 @@ export default function PricingPage() {
             <p className="text-muted-foreground text-pretty">
               Need something custom or have questions?
             </p>
-            <Link href="mailto:sahaj@tweakcn.com">
+            <Link href="mailto:sahaj@prism.dev">
               <Button variant="link">
                 <Mail className="size-4" />
                 Get in touch

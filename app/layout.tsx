@@ -13,21 +13,21 @@ import { Suspense } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Beautiful themes for shadcn/ui — tweakcn | Theme Editor & Generator",
+  title: "Prism — Visual Theme Editor for shadcn/ui with AI Generation",
   description:
-    "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
+    "Create beautiful themes for shadcn/ui with Prism's AI-powered visual editor. Supports Tailwind CSS v4, AI theme generation from text or images, and real-time preview. Export production-ready CSS instantly.",
   keywords:
-    "theme editor, theme generator, shadcn, ui, components, react, tailwind, button, editor, visual editor, component editor, web development, frontend, design system, UI components, React components, Tailwind CSS, shadcn/ui themes",
-  authors: [{ name: "Sahaj Jain" }],
+    "theme editor, theme generator, AI theme generator, shadcn, ui, components, react, tailwind, editor, visual editor, OKLCH, web development, frontend, design system, UI components, React components, Tailwind CSS, shadcn/ui themes, AI design",
+  authors: [{ name: "Prism Team" }],
   openGraph: {
-    title: "Beautiful themes for shadcn/ui — tweakcn | Theme Editor & Generator",
+    title: "Prism — Visual Theme Editor for shadcn/ui with AI Generation",
     description:
-      "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
-    url: "https://tweakcn.com/",
-    siteName: "tweakcn",
+      "Create beautiful themes for shadcn/ui with Prism's AI-powered visual editor. Generate themes from text descriptions or images, customize in real-time, and export production-ready CSS.",
+    url: "https://github.com/drtonylove1963/Prism",
+    siteName: "Prism",
     images: [
       {
-        url: "https://tweakcn.com/og-image.v050725.png",
+        url: "/og-image.v050725.png",
         width: 1200,
         height: 630,
       },
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Beautiful themes for shadcn/ui — tweakcn | Theme Editor & Generator",
+    title: "Prism — Visual Theme Editor for shadcn/ui with AI Generation",
     description:
-      "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
-    images: ["https://tweakcn.com/og-image.v050725.png"],
+      "Create beautiful themes for shadcn/ui with Prism's AI-powered visual editor. Generate themes from text descriptions or images, customize in real-time, and export production-ready CSS.",
+    images: ["/og-image.v050725.png"],
   },
   robots: "index, follow",
 };
