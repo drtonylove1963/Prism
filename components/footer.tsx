@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import GitHubIcon from "@/assets/github.svg";
 import TwitterIcon from "@/assets/twitter.svg";
 import DiscordIcon from "@/assets/discord.svg";

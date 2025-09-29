@@ -1,7 +1,7 @@
 "use client";
 
 import GitHubIcon from "@/assets/github.svg";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import { Button } from "@/components/ui/button";
 import { useGithubStars } from "@/hooks/use-github-stars";
 import { cn } from "@/lib/utils";

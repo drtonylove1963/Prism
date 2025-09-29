@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";

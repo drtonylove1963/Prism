@@ -1,4 +1,4 @@
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
 import { useEditorStore } from "@/store/editor-store";

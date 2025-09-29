@@ -1,7 +1,7 @@
 "use client";
 
 import FigmaIcon from "@/assets/figma.svg";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import Shadcraft from "@/assets/shadcraft.svg";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";

@@ -3,7 +3,7 @@
 import DiscordIcon from "@/assets/discord.svg";
 import FigmaIcon from "@/assets/figma.svg";
 import GitHubIcon from "@/assets/github.svg";
-import Logo from "@/assets/shadcn.svg";
+import Logo from "@/assets/prism.svg";
 import TwitterIcon from "@/assets/twitter.svg";
 import { FigmaExportDialog } from "@/components/figma-export-dialog";
 import { SocialLink } from "@/components/social-link";

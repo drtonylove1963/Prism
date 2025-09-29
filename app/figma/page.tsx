@@ -5,7 +5,7 @@ import { FigmaHeader } from "@/components/figma-header";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/prism.svg";
 import Shadcraft from "@/assets/shadcraft.svg";
 import FigmaIcon from "@/assets/figma.svg";
 import { Check, X, ArrowUpRight, Figma, Cable, Paintbrush } from "lucide-react";
